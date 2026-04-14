@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Payment - Valdez Mini Bar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Secure Valdez Mini Bar payment page">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="page-shell">
+            <div class="page-head">
+                <h1>💳 Secure Payment</h1>
+                <p>Your payment page now matches the Valdez Mini Bar theme.</p>
+            </div>
+
+            <div class="payment-container">
+                <h2 class="section-title">Choose your payment method</h2>
+                <div class="payment-methods">
+                    <button type="button">Mastercard</button>
+                    <button type="button">Visa</button>
+                    <button type="button">PayPal</button>
+                </div>
+
+                <h2 class="section-title">Billing information</h2>
+                <form>
+                    <input class="input-field" type="text" placeholder="Full name" required>
+                    <input class="input-field" type="email" placeholder="Email address" required>
+                    <input class="input-field" type="text" placeholder="Address" required>
+
+                    <h2 class="section-title">Card details</h2>
+                    <input class="input-field" type="text" placeholder="1234 5678 9012 3456" required>
+                    <input class="input-field" type="text" placeholder="Card holder name" required>
+
+                    <div class="card-row">
+                        <input class="input-field" type="text" placeholder="MM/YY" required>
+                        <input class="input-field" type="text" placeholder="CVV" required>
+                    </div>
+
+                    <button class="pay-btn" type="submit">Pay Now</button>
+                </form>
+            </div>
+
+            <a href="index.html" class="back-btn">Back to menu</a>
+        </div>
+    </body>
+</html>
